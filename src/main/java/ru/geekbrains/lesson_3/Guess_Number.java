@@ -14,9 +14,9 @@ public class Guess_Number {
         int i;
         boolean yesNo = true;
         Scanner scanner = new Scanner(System.in);
-        Random rand = new Random();
-        int randomNumber = rand.nextInt(9);
-        while (yesNo == true) {
+        while (yesNo == true){
+            Random rand = new Random();
+            int randomNumber = rand.nextInt(9);
             for (i = 0; i < 3; i++) {
                 System.out.print("Введите число - ");
                 int inputNumber1 = scanner.nextInt();

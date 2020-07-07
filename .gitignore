@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+/src/main/java/ru/geekbrains/lesson_3/
+/․idea
+*.iml
